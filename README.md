@@ -205,19 +205,4 @@ These are plain JSON, making it easy to:
 - build other tooling on top (e.g., export to calendar)
 - unit test core logic with real scenarios
 
----
-
-## Why this is interesting to recruiters
-
-- **Algorithmic thinking**: Implements a non-trivial scheduling algorithm with priorities, constraints, and spaced repetition logic.
-- **Clean separation of concerns**:
-  - domain models and algorithm in `domain` / `scheduling`
-  - persistence in `storage`
-  - presentation in `ui`
-- **Real-world scenario**: Solves a concrete student productivity problem rather than a toy demo.
-- **Extensibility**: Clear places to add:
-  - smarter optimization (priority queues, different scoring functions)
-  - burnout prevention (auto rest days if schedule is too dense)
-  - performance prediction (readiness scores based on completion)
-  - alternative UIs (web, mobile, CLI) using the same core logic.
 
